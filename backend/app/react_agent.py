@@ -21,10 +21,11 @@ urls = [
   "https://en.wikipedia.org/wiki/Viscosity"
 ]
 
-retrieval_tool = retrive_url(urls)
+
+url_retrieval_tool = retrive_url(urls)
 
 
-tools = [retrieval_tool]
+tools = [url_retrieval_tool]
 
 SYSTEM_PROMPT = """You are an AI assistant that specializes in answering questions using a retrieval tool.
 You can call the following tool:
